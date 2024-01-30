@@ -22,8 +22,7 @@ check_include_file(utmp.h HAVE_UTMP_H)
 check_include_file(utmpx.h HAVE_UTMPX_H)
 
 check_symbol_exists(futimes "sys/time.h" HAVE_FUTIMES)
-check_symbol_exists(getaddrinfo "sys/types.h;sys/socket.h;netdb.h"
-  HAVE_GETADDRINFO)
+check_symbol_exists(getaddrinfo "sys/types.h;sys/socket.h;netdb.h" HAVE_GETADDRINFO)
 check_symbol_exists(posix_openpt "stdlib.h;fcntl.h" HAVE_POSIX_OPENPT)
 check_symbol_exists(ptsname "stdlib.h" HAVE_PTSNAME)
 check_symbol_exists(setresuid "unistd.h" HAVE_SETRESUID)
